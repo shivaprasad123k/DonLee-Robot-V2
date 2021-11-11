@@ -102,13 +102,13 @@ Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a
 - `FILE_BUTTONS` : Single or Dual Button
 - `FILE_CAPTION` : File Caption bold or mono
 - `FORCE_CHANNEL` : Main Channel Username Without @
-- `FORCE_TEXT` : Demo Text From [Click Here](
+- `FORCE_TEXT` : Demo Text From [Click Here](https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/26510e3ed0cd0bc222f3fb1560925f36e2904ecf/translation.py#L6)
 - `GROUP_LINK` : Your Telagarm Group Link (Without @)
 - `PHOTOS` : Bot Pics (Start Help about) random pics [click here](https://youtu.be/c-GfUfriP50)
 - `SESSION_FILE` : From [Click Here](https://youtu.be/WUN_12-dYOM)
-- `SPELLING_MODE_TEXT` : Demo Text From [click here](
+- `SPELLING_MODE_TEXT` : Demo Text From [click here](https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/26510e3ed0cd0bc222f3fb1560925f36e2904ecf/translation.py#L17)
 - `WELCOME_ENABLE_OR_DISABLE` : Do you want a welcome message? Type Yes if necessary and No if not required
-- `WELCOME_TEXT` : Demo text from [Click here](
+- `WELCOME_TEXT` : Demo text from [Click here](https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/26510e3ed0cd0bc222f3fb1560925f36e2904ecf/config.py#L26)
 
 ----
 
