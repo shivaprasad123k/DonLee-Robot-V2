@@ -1,0 +1,13 @@
+Dnspython
+Motor
+Pyrogram
+Pymongo
+Requests 
+TgCrypto 
+IMDbPY
+asyncio
+aiofiles
+umongo
+dnspython
+heroku3
+pyromod

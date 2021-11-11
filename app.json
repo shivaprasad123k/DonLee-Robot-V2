@@ -1,0 +1,115 @@
+{
+    "name": "Auto Filter Bot V2",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://telegra.ph/file/667e15c821117633d07bd.png",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/PR0FESS0R-99/DonLee",
+    "repository": "https://github.com/MRK-YT/DonleeRobot",
+    "success_url": "https://github.com/PR0FESS0R-99/DonLee",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org or @MT_MytelegramOrg_Bot",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "SESSION_FILE": {
+            "description": "SESSION_FILE From https://youtu.be/WUN_12-dYOM",
+            "value": ""
+        },
+        "DATABASE_URI": {
+            "description": "DATABASE_URI From https://youtu.be/gBLTsH-IXr0",
+            "value": ""
+        },
+        "FORCE_CHANNEL": {
+            "description": "FORCE_CHANNEL Your Update Channel (without @)",
+            "value": "MO_TECH_YT"
+        },
+        "CUSTOM_CAPTION": {
+            "description": "file Custom Caption",
+            "value": "",
+            "required": false
+        },
+        "BOT_USERNAME": {
+            "description": "BOT_USERNAME Your Bot User Name From Botfather",
+            "value": "DonLee_Robot",
+            "required": false
+        },
+        "DEV_USERNAME": {
+            "description": "Master (your) Telagarm Useraname from @MT_ID_Bot (Without @)",
+            "value": "Mrk_YT",
+            "required": false
+        },
+        "DEV_NAME": {
+            "description": "Your Name DEV_NAME",
+            "value": "Mrk_YT",
+            "required": false
+        },
+        "DEV_ID": {
+            "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @)",
+            "value": "",
+            "required": false
+        },
+        "GROUP_LINK": {
+            "description": "Your Telagarm Group Link (Without @)",
+            "value": "",
+            "required": false
+        },
+        "FORCE_TEXT": {
+            "description": "Force Text Demo (Your Not Join My Update Channel)",
+            "value": "",
+            "required": false
+        },
+        "WELCOME_ENABLE_OR_DISABLE": {
+            "description": "Do you want a welcome message? Type Yes if necessary and No if not required",
+            "value": "no",
+            "required": false
+        },
+        "WELCOME_TEXT": {
+            "description": "Set Your Custom Welcome Text (User Name = {mention} || Group Name {groupname}",
+            "value": "",
+            "required": false
+        },
+        "SPELLING_MODE_TEXT": {
+            "description": "Spelling Mode Text (Google Spelling Mode)",
+            "value": "Hey {} Check Your Spelling",
+            "required": false
+        },
+        "PHOTOS": {
+            "description": "Bot Pics (Start Help about) random pics @MT_Telegraph_Bot",
+            "value": "Hey {} Check Your Spelling",
+            "required": false
+        },
+        "FILE_BUTTONS": {
+            "description": "File Buttons dual Or single",
+            "value": "",
+            "required": false
+        },
+        "FILE_CAPTION": {
+            "description": "File Caption bold or mono",
+            "value": "",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
