@@ -1,15 +1,15 @@
 {
-    "name": "Auto Filter Bot V2",
-    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
-    "logo": "https://telegra.ph/file/667e15c821117633d07bd.png",
+    "name": "DonLee-Robot-V2",
+    "description": "A AutoFilter & Manual Filers Donlee Robot",
+    "logo": "https://telegra.ph/file/7213699d811662dd57e36.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/PR0FESS0R-99/DonLee",
-    "repository": "https://github.com/MRK-YT/DonleeRobot",
-    "success_url": "https://github.com/PR0FESS0R-99/DonLee",
+    "website": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
+    "repository": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
+    "success_url": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
@@ -52,7 +52,7 @@
         },
         "DEV_NAME": {
             "description": "Your Name DEV_NAME",
-            "value": "Mrk_YT",
+            "value": "Muhammed",
             "required": false
         },
         "DEV_ID": {
@@ -87,7 +87,7 @@
         },
         "PHOTOS": {
             "description": "Bot Pics (Start Help about) random pics @MT_Telegraph_Bot",
-            "value": "Hey {} Check Your Spelling",
+            "value": "",
             "required": false
         },
         "FILE_BUTTONS": {
