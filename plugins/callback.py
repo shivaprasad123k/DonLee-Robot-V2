@@ -337,7 +337,7 @@ async def cb_handler(client, query):
                        InlineKeyboardButton('🧩Deplow', url='https://youtu.be/NrbMc93aCzA')
                    ],
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🔙 Back 🔙", callback_data="about")
                    ]
                ]
            )
