@@ -311,7 +311,7 @@ async def cb_handler(client, query):
                [
                    [
                        InlineKeyboardButton("🔙 BacK", callback_data="help"),
-                       InlineKeyboardButton("🙎‍♂️ Admins", callback_data="info")
+                       InlineKeyboardButton("🙎‍♂️ Admins", callback_data="groupadmin")
                    ]
                ]
            )
@@ -320,7 +320,7 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.GROUP_ADMIN_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🔙 Back 🔙", callback_data="info")
                    ]
                ]
            )
@@ -337,7 +337,7 @@ async def cb_handler(client, query):
                        InlineKeyboardButton('🧩Deplow', url='https://youtu.be/NrbMc93aCzA')
                    ],
                    [
-                       InlineKeyboardButton("🔙 Back 🔙", callback_data="help")
+                       InlineKeyboardButton("🔙 Back 🔙", callback_data="about")
                    ]
                ]
            )
